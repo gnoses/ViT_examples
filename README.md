@@ -6,4 +6,4 @@ pip install -r requirements.txt
 python vit_mnist.py
 
 ## Evaluation
-![Training curve accuracy](evaluation.png =250x)
+![Training curve accuracy](evaluation.png=250x250)
