@@ -2,7 +2,7 @@
 
 ## Install and run
 
-pip install -r requirements.txt
+pip install -r requirements.txt <br>
 python vit_mnist.py
 
 ## Features
