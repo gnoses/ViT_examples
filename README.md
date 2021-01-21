@@ -11,3 +11,4 @@ Hyper parameter tunig by optuna
 
 ## Evaluation
 ![Training curve accuracy](evaluation.png | width=100)
+<img src="evaluation.png" alt="Training curve accuracy" width="200" height="200">
