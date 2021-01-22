@@ -10,6 +10,9 @@ from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
 import wandb
 import optuna
+from tqdm import tqdm
+from vit_pytorch import ViT
+
 
 wandb.init(project='vit_mnist',name='mnist_optuna')
 
@@ -58,10 +61,7 @@ dataset2 = datasets.MNIST('../data', train=False,
 train_loader = torch.utils.data.DataLoader(dataset1,**train_kwargs)
 test_loader = torch.utils.data.DataLoader(dataset2, **test_kwargs)
 
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from tqdm import tqdm
+
 
 def train(model, criterion, device, train_loader, optimizer, epoch):
     model.train()
@@ -99,7 +99,6 @@ def test(model, device, test_loader):
     
     return val_acc
 
-from vit_pytorch import ViT
 
 epochs = 20
 gamma = 0.7
