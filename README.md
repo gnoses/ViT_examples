@@ -7,7 +7,7 @@ python vit_mnist.py
 
 ## Features
 
-Hyper parameter tuning by optuna
+Hyper parameter tuning by optuna (https://github.com/optuna/optuna)
 
 ## Evaluation
 <img src="evaluation.png" alt="Training curve accuracy" width="400" height="350">
