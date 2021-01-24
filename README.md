@@ -30,7 +30,7 @@ python vit_catanddog.py
 | efficient_dim512                     | 512 |   512   |   16  |   16  |   76.4%  |
 | huge32_embed_512                     | 512 |   512   |   32  |   16  |   80.2%  |
 | huge32_aug (more about augmentation) | 512 |   512   |   32  |   16  |   93.3%  |
-| pretraining                          |     |         |       |       |          |
+| pretraining (ongoing)                |     |         |       |       |          |
 
 
 <img src="images/plot_vit_catanddog.png" alt="Training and validation curve accuracy" width="800" height="350">
