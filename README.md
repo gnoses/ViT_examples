@@ -24,7 +24,7 @@ python vit_mnist.py
 
 python vit_catanddog.py
 
-| Name                                 | dim | mlp_dim | depth | heads | accuracy |
+| trial                                | dim | mlp_dim | depth | heads | accuracy |
 |--------------------------------------|:---:|:-------:|:-----:|:-----:|:--------:|
 | baseline (supervised ResNet50)       |  -  |    -    |   -   |   -   |   98.5%  |
 | efficient_dim512                     | 512 |   512   |   16  |   16  |   76.4%  |
