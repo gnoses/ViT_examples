@@ -23,6 +23,8 @@ Features: Hyper parameter tuning by optuna (https://github.com/optuna/optuna)
 
 ## Cat and Dog
 
+Download Dogs and cats dataset and unzip into 'data' directory.
+
 `python vit_catanddog.py`
 
 | trial                                | dim | mlp_dim | depth | heads | accuracy |
