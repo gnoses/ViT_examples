@@ -24,5 +24,5 @@ python vit_mnist.py
 
 python vit_catanddog.py
 
-<img src="images/plot_catanddog.png" alt="Training and validation curve accuracy" width="400" height="350">
+<img src="images/plot_vit_catanddog.png" alt="Training and validation curve accuracy" width="400" height="350">
 
