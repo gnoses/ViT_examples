@@ -24,5 +24,14 @@ python vit_mnist.py
 
 python vit_catanddog.py
 
+| Name                                 | dim | mlp_dim | depth | heads | accuracy |
+|--------------------------------------|:---:|:-------:|:-----:|:-----:|:--------:|
+| baseline (supervised ResNet50)       |  -  |    -    |   -   |   -   |   98.5%  |
+| efficient_dim512                     | 512 |   512   |   16  |   16  |   76.4%  |
+| huge32_embed_512                     | 512 |   512   |   32  |   16  |   80.2%  |
+| huge32_aug (more about augmentation) | 512 |   512   |   32  |   16  |   93.3%  |
+| pretraining                          |     |         |       |       |          |
+
+
 <img src="images/plot_vit_catanddog.png" alt="Training and validation curve accuracy" width="800" height="350">
 
