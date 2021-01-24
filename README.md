@@ -17,12 +17,12 @@ Features: Hyper parameter tuning by optuna (https://github.com/optuna/optuna) on
 
 python vit_mnist.py
 
-<img src="evaluation.png" alt="Training curve accuracy" width="400" height="350">
+<img src="images/plot_mnist.png" alt="Training curve accuracy" width="400" height="350">
 
 
 ## Cat and Dog
 
 python vit_catanddog.py
 
-<img src="vi_catanddog.png" alt="Training and validation curve accuracy" width="400" height="350">
+<img src="images/plot_catanddog.png" alt="Training and validation curve accuracy" width="400" height="350">
 
