@@ -1,7 +1,7 @@
 # Vision transformer examples - PyTorch
 
-This repository contains PyTorch examples of Vision transformer (https://arxiv.org/abs/2010.11929) <br>
-Code is originally based on https://github.com/lucidrains/vit-pytorch
+This repository contains PyTorch examples of Vision transformer (https://arxiv.org/abs/2010.11929). <br>
+Code is originally based on https://github.com/lucidrains/vit-pytorch.
 
 ## Dataset
  1. MNIST
@@ -14,7 +14,7 @@ Code is originally based on https://github.com/lucidrains/vit-pytorch
 
 ## MNIST
 
-Features: Hyper parameter tuning by optuna (https://github.com/optuna/optuna) on MNIST
+Features: Hyper parameter tuning by optuna (https://github.com/optuna/optuna)
 
 `python vit_mnist.py`
 
