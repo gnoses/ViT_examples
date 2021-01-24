@@ -15,7 +15,7 @@ Based on https://github.com/lucidrains/vit-pytorch
 
 Features: Hyper parameter tuning by optuna (https://github.com/optuna/optuna) on MNIST
 
-python vit_mnist.py
+`python vit_mnist.py`
 
 <img src="images/plot_mnist.png" alt="Training curve accuracy" width="400" height="350">
 
