@@ -1,6 +1,7 @@
 # Vision transformer examples - PyTorch
 
-Based on https://github.com/lucidrains/vit-pytorch
+This repository contains PyTorch examples of Vision transformer (https://arxiv.org/abs/2010.11929)
+Code is originally based on https://github.com/lucidrains/vit-pytorch
 
 ## Dataset
  1. MNIST
