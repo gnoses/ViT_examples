@@ -8,7 +8,7 @@ Based on https://github.com/lucidrains/vit-pytorch
 
 ## Install
 
-pip install -r requirements.txt <br>
+`pip install -r requirements.txt` <br>
 
 
 ## MNIST
