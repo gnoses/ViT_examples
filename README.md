@@ -1,6 +1,6 @@
 # Vision transformer examples - PyTorch
 
-This repository contains PyTorch examples of Vision transformer (https://arxiv.org/abs/2010.11929)
+This repository contains PyTorch examples of Vision transformer (https://arxiv.org/abs/2010.11929) <br>
 Code is originally based on https://github.com/lucidrains/vit-pytorch
 
 ## Dataset
