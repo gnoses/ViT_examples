@@ -4,7 +4,7 @@ Based on https://github.com/lucidrains/vit-pytorch
 
 ## Dataset
  1. MNIST
- 2. Cat and Dog (https://www.kaggle.com/c/dogs-vs-cats/data)
+ 2. Dogs vs cats (https://www.kaggle.com/c/dogs-vs-cats/data)
 
 ## Install
 
