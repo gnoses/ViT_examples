@@ -21,7 +21,7 @@ Features: Hyper parameter tuning by optuna (https://github.com/optuna/optuna)
 <img src="images/plot_mnist.png" alt="Training curve accuracy" width="400" height="350">
 
 
-## Cat and Dog
+## Dogs and Cats
 
 Download Dogs and cats dataset and unzip into 'data' directory.
 
