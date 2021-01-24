@@ -22,7 +22,7 @@ python vit_mnist.py
 
 ## Cat and Dog
 
-python vit_catanddog.py
+`python vit_catanddog.py`
 
 | trial                                | dim | mlp_dim | depth | heads | accuracy |
 |--------------------------------------|:---:|:-------:|:-----:|:-----:|:--------:|
