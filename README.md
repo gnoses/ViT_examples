@@ -35,7 +35,7 @@ Download Dogs and cats dataset and unzip into 'data' directory.
 | huge32_aug (more about augmentation) | 512 |   512   |   32  |   16  |   93.3%  |
 | pretraining (ongoing)                |     |         |       |       |          |
 
-'''
+```
 import albumentations
 
 train_transforms = albumentations.Compose([
@@ -62,7 +62,7 @@ train_transforms = albumentations.Compose([
     
     albumentations.Normalize(mean=(0.5), std=(0.225))
 ])
-'''
+```
 
 <img src="images/plot_vit_catanddog.png" alt="Training and validation curve accuracy" width="800" height="350">
 
